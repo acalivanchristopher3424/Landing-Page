@@ -48,6 +48,21 @@ button {
     cursor: pointer;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .header-logo-container{
     display: flex;
     align-items: center;
@@ -104,3 +119,109 @@ button {
     margin: 13px 0 ;
 }
 
+/* info */
+
+.image-text-container-parent{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.image-text-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    gap: 12px;
+
+    flex-basis: 160px;
+    max-width: 160px;
+
+    font-size: 20px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+/* quote */
+
+.quote{
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 300px;
+}
+
+.sender-message{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    opacity: 0.7;
+    font-style: italic;
+}
+.sender-name{
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.sender-name{
+    align-self: flex-end;
+}
+
+
+/* call to action */
+
+.call-to-action{
+
+}
+
+.blue-box{
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    border-radius: 10px;
+    height: 150px;
+    width: 1000px;
+    margin: 100px;
+    padding: 0 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-text-main{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.call-to-action-text-submain{
+    opacity: 0.7;
+}
+.sign-up.footer{
+    border: 2px solid #F9FAF8;
+}
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
